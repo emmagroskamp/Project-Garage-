@@ -1,0 +1,33 @@
+.honden{
+    background-image: url(img/image-voorpagina.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+.col-12{
+    background-color: black;
+    color: white;
+}
+
+.overzicht_klant{
+  margin-left: 15%;
+}
+
+.klanten_titel{
+  margin-left: 34%;
+}
+
+.factuur{
+  margin-top: 10%;
+}
+
+.formulier{
+  margin-left: 5%;
+}
